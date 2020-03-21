@@ -11,6 +11,5 @@ add_action( 'wp_enqueue_scripts', 'cff_enqueue_styles', 99 );
 
 add_action( 'init', 'cff_load_events_calendar_textdomain' );
 function cff_load_events_calendar_textdomain() {
-	//var_dump(dirname(  __FILE__  )); die;
 	load_plugin_textdomain( 'events-manager', false, '../themes/culturafazfalta/' );
 }

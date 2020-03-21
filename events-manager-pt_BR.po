@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Events Manager - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-21 16:18-0300\n"
+"PO-Revision-Date: 2020-03-21 17:42-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -134,7 +134,7 @@ msgstr "Events Manager has introduced new privacy tools to help you comply with 
 
 #: em-install.php:840
 msgid "I consent to my submitted data being collected and stored as outlined by the site %s."
-msgstr "I consent to my submitted data being collected and stored as outlined by the site %s."
+msgstr "Eu autorizo que as informações enviadas sejam armazenadas por esse site."
 
 #: em-data-privacy.php:152
 msgid "Please check the consent box so we can collect and store your submitted information."
@@ -656,7 +656,7 @@ msgstr "Título"
 #: templates/forms/event/when-with-recurring.php:12
 #: templates/forms/event/recurring-when.php:75
 msgid "Recurrences span from "
-msgstr "Recurrences span from "
+msgstr "As repetições acontecem entre "
 
 #: templates/forms/event/when-with-recurring.php:16
 #: templates/forms/event/when-with-recurring.php:17
@@ -685,7 +685,7 @@ msgstr "name, end date, end time"
 
 #: widgets/em-events.php:33
 msgid "end date, end time, event name"
-msgstr "end date, end time, event name"
+msgstr "Data de encerramento, hora de encerramento, nome do evento"
 
 #: widgets/em-events.php:35
 msgid "Display a list of events on Events Manager."
@@ -730,7 +730,7 @@ msgstr "Event Locations"
 #: templates/forms/event/when-with-recurring.php:22
 #: templates/forms/event/recurring-when.php:10
 msgid "Events start from"
-msgstr "Events start from"
+msgstr "Eventos começam às "
 
 #: templates/forms/event/when-with-recurring.php:27
 #: templates/forms/event/when.php:20
@@ -741,7 +741,7 @@ msgstr "Dia todo"
 #: templates/forms/event/when-with-recurring.php:76
 #: templates/forms/event/recurring-when.php:83
 msgid "Each event spans %s day(s)"
-msgstr "Each event spans %s day(s)"
+msgstr "Cada evento se estende por %s dia(s)"
 
 #: templates/forms/location/featured-image-public.php:13
 msgid "No image uploaded for this location yet"
@@ -803,11 +803,11 @@ msgstr "Event start date/time, location name"
 #: templates/forms/event/when-with-recurring.php:78
 #: templates/forms/event/recurring-when.php:85
 msgid "For a recurring event, a one day event will be created on each recurring date within this date range."
-msgstr "For a recurring event, a one day event will be created on each recurring date within this date range."
+msgstr "Para um evento que se repete, será criado um evento de um dia para cada data dentro desse intervalo."
 
 #: templates/forms/event/when-with-recurring.php:10
 msgid "This is a recurring event."
-msgstr "This is a recurring event."
+msgstr "Esse evento se repete"
 
 #: templates/forms/event/when-with-recurring.php:13
 #: templates/forms/event/when.php:8
@@ -821,7 +821,7 @@ msgstr "Evento começa em"
 
 #: templates/forms/event/when.php:31
 msgid "This event spans every day between the beginning and end date, with start/end times applying to each day."
-msgstr "This event spans every day between the beginning and end date, with start/end times applying to each day."
+msgstr "Esse evento acontece durante todo o tempo entre a data de início e de fim, com a hora inicial e final se aplicando a cada um dos dias."
 
 #: templates/forms/event-editor.php:30
 msgid "Your Details"
@@ -833,7 +833,7 @@ msgstr "O nome do evento. Exemplo: Show do Pixinguinha"
 
 #: templates/forms/location-editor.php:37 templates/forms/event-editor.php:72
 msgid "Details"
-msgstr "Details"
+msgstr "Mais informações"
 
 #: templates/forms/event-editor.php:80
 msgid "Details about the event."
@@ -1284,12 +1284,12 @@ msgstr "Category:"
 
 #: templates/forms/event/featured-image-public.php:13
 msgid "No image uploaded for this event yet"
-msgstr "No image uploaded for this event yet"
+msgstr "Nenhuma imagem enviada ainda"
 
 #: templates/forms/location/featured-image-public.php:16
 #: templates/forms/event/featured-image-public.php:16
 msgid "Upload/change picture"
-msgstr "Upload/change picture"
+msgstr "Enviar/trocar imagem"
 
 #: templates/forms/location/featured-image-public.php:19
 #: templates/forms/event/featured-image-public.php:19
@@ -1610,32 +1610,32 @@ msgstr "none selected"
 #: templates/forms/event/when-with-recurring.php:39
 #: templates/forms/event/recurring-when.php:37
 msgid "This event repeats"
-msgstr "This event repeats"
+msgstr "Esse evento se repete"
 
 #: templates/forms/event/when-with-recurring.php:46
 #: templates/forms/event/recurring-when.php:44
 msgid "every"
-msgstr "every"
+msgstr "a cada"
 
 #: templates/forms/event/when-with-recurring.php:48
 #: templates/forms/event/recurring-when.php:46
 msgid "day"
-msgstr "day"
+msgstr "dia"
 
 #: templates/forms/event/when-with-recurring.php:49
 #: templates/forms/event/recurring-when.php:47
 msgid "days"
-msgstr "days"
+msgstr "dias"
 
 #: templates/forms/event/when-with-recurring.php:50
 #: templates/forms/event/recurring-when.php:48
 msgid "week on"
-msgstr "week on"
+msgstr "semana nos dias:"
 
 #: templates/forms/event/when-with-recurring.php:51
 #: templates/forms/event/recurring-when.php:49
 msgid "weeks on"
-msgstr "weeks on"
+msgstr "semanas nos dias:"
 
 #: em-functions.php:679
 msgid "If translations are left blank, the default value will be used."
@@ -1719,7 +1719,7 @@ msgstr "No %s"
 
 #: em-install.php:558 em-install.php:582 em-install.php:604
 msgid "Upcoming Events"
-msgstr "Upcoming Events"
+msgstr "Próximos Eventos"
 
 #: em-install.php:562 em-install.php:570
 msgid "No events in this location"
@@ -2751,7 +2751,7 @@ msgstr "%s is required."
 
 #: classes/em-event.php:855
 msgid "Event name"
-msgstr "Event name"
+msgstr "Nome do Evento"
 
 #: classes/em-location.php:347 classes/em-event.php:860
 msgid "A valid email"
@@ -2892,7 +2892,7 @@ msgstr "Anonymous Submitter Info"
 #: classes/em-event-post-admin.php:272 admin/em-data-privacy.php:372
 #: admin/em-data-privacy.php:374
 msgid "When"
-msgstr "When"
+msgstr "Quando"
 
 #: classes/em-event.php:917
 msgid "Please specify what days of the week this event should occur on."
@@ -3229,7 +3229,7 @@ msgstr "Order by name, start date, then start time"
 
 #: admin/settings/tabs/formats.php:449
 msgid "Event."
-msgstr "Event."
+msgstr "Evento."
 
 #: admin/settings/tabs/formats.php:452
 msgid "Single Location/Event Map Format"
@@ -4677,31 +4677,31 @@ msgstr "These formats will be used on your events page. This will also be used i
 #: admin/settings/tabs/formats.php:13 admin/settings/tabs/general.php:43
 #: admin/em-options.php:613
 msgid "None"
-msgstr "None"
+msgstr "Nenhum"
 
 #: templates/forms/event/when-with-recurring.php:42
 #: templates/forms/event/recurring-when.php:40
 #: admin/settings/tabs/formats.php:13
 msgid "Yearly"
-msgstr "Yearly"
+msgstr "Anualmente"
 
 #: templates/forms/event/when-with-recurring.php:42
 #: templates/forms/event/recurring-when.php:40
 #: admin/settings/tabs/formats.php:13
 msgid "Monthly"
-msgstr "Monthly"
+msgstr "Mensalmente"
 
 #: templates/forms/event/when-with-recurring.php:42
 #: templates/forms/event/recurring-when.php:40
 #: admin/settings/tabs/formats.php:13
 msgid "Weekly"
-msgstr "Weekly"
+msgstr "Semanalmente"
 
 #: templates/forms/event/when-with-recurring.php:42
 #: templates/forms/event/recurring-when.php:40
 #: admin/settings/tabs/formats.php:13
 msgid "Daily"
-msgstr "Daily"
+msgstr "Diariamente"
 
 #: admin/settings/tabs/formats.php:14
 msgid "Events page grouping"
@@ -5819,7 +5819,7 @@ msgstr "There is a newer version of Events Manager Pro which is recommended for 
 #: templates/forms/event-editor.php:44 admin/settings/tabs/pages.php:659
 #: admin/em-data-privacy.php:366 admin/em-bookings.php:97
 msgid "Event Name"
-msgstr "Event Name"
+msgstr "Nome do Evento"
 
 #: admin/em-bookings.php:99
 msgid "Availability"

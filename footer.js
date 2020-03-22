@@ -7,7 +7,9 @@
 		$('div.event-form-where').hide();
 		$('#mapa_iframe')
 		.click(function(){
-			$(this).find('iframe').toggleClass('clicked');
-		});
+				$(this).find('iframe').toggleClass('clicked')})
+		.mouseleave(function(){
+				$(this).find('iframe').removeClass('clicked')});
+	});
 
 })( jQuery );

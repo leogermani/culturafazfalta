@@ -64,8 +64,7 @@ if ( !$disable && !empty( $data ) ) {
                    ?>
                    <div id="botoes">
                        <a href="https://forms.gle/a1UYLM9EPgL7wjdVA" class="btn btn-theme-primary btn-lg customize-unpreviewable">Meu evento foi cancelado(São Paulo)</a>
-                       <a href="https://forms.gle/a1UYLM9EPgL7wjdVA" class="btn btn-theme-primary btn-lg customize-unpreviewable">Meu evento foi cancelado(outras cidades)</a>
-                       <a href="https://forms.gle/a1UYLM9EPgL7wjdVA" class="btn btn-theme-primary btn-lg customize-unpreviewable">Criar um formulário para cidade</a>
+                       <a href="#outras-localidades" class="btn btn-theme-primary btn-lg customize-unpreviewable">Meu evento foi cancelado(outras cidades)</a>
                    </div>
 
                     <div id="mapa_iframe" class=""  >

@@ -26,3 +26,49 @@ function additional_custom_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'additional_custom_styles' );
 
+if ( ! get_option('cats_created') ) {
+	update_option('cats_created', true);
+	add_action('init', function() {
+		$cats = [
+			'Arquitetura e Urbanismo',
+			'Arte de rua',
+			'Artes visuais',
+			'Artes digitais',
+			'Artesanato',
+			'Áudiovisual',
+			'Cinema',
+			'Circo',
+			'Culinária',
+			'Cultura Estrangeira',
+			'Cultura Indígena',
+			'Cultura LGBTQ+',
+			'Cultura Negra',
+			'Cultura Popular',
+			'Dança',
+			'Design',
+			'Direito Autoral',
+			'Fotografia',
+			'Gestão Cultural',
+			'Infantil',
+			'Livro, Leitura e Literatura',
+			'Moda',
+			'Museu',
+			'Música',
+			'Novas Mídias',
+			'Performance',
+			'Patrimônio Imaterial',
+			'Patrimônio Material',
+			'Pesquisa',
+			'Produção Cultural',
+			'Rádio',
+			'Teatro',
+			'Televisão',
+			'Turismo',
+			'Outro',
+		];
+		foreach ($cats as $cat) {
+			wp_insert_term( $cat, 'event-categories' );
+		}
+	});
+
+}

@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Events Manager - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2020-03-21 17:47-0300\n"
+"PO-Revision-Date: 2020-03-27 09:11-0300\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -769,7 +769,7 @@ msgstr "Location Image"
 
 #: templates/forms/map-container.php:3
 msgid "Location not found"
-msgstr "Location not found"
+msgstr "Local não encontrado"
 
 #: templates/templates/map-global.php:13
 #: templates/placeholders/locationmap.php:30
@@ -1314,7 +1314,7 @@ msgstr "No groups defined yet."
 
 #: templates/forms/event/location.php:9
 msgid "This event does not have a physical location."
-msgstr "This event does not have a physical location."
+msgstr "Este evento é online!"
 
 #: templates/forms/event/location.php:32
 msgid "Location:"
@@ -1326,7 +1326,7 @@ msgstr "Location Name:"
 
 #: templates/forms/event/location.php:79
 msgid "Create a location or start typing to search a previously created location."
-msgstr "Create a location or start typing to search a previously created location."
+msgstr "Crie um novo local, ou comece a digitar para buscar locais já existentes"
 
 #: templates/forms/event/when-with-recurring.php:52
 #: templates/forms/event/recurring-when.php:50
@@ -1578,30 +1578,30 @@ msgstr "Reset this form to create a location or search again."
 #: templates/forms/location/where.php:11 templates/forms/event/location.php:84
 #: multilingual/em-ml-admin.php:139
 msgid "Address:"
-msgstr "Address:"
+msgstr "Endereço:"
 
 #: templates/forms/location/where.php:17 templates/forms/event/location.php:90
 #: multilingual/em-ml-admin.php:145
 msgid "City/Town:"
-msgstr "City/Town:"
+msgstr "Cidade:"
 
 #: templates/forms/location/where.php:23 templates/forms/event/location.php:96
 #: multilingual/em-ml-admin.php:151
 msgid "State/County:"
-msgstr "State/County:"
+msgstr "UF:"
 
 #: templates/forms/location/where.php:29 templates/forms/event/location.php:102
 msgid "Postcode:"
-msgstr "Postcode:"
+msgstr "CEP:"
 
 #: templates/forms/location/where.php:35 templates/forms/event/location.php:108
 #: multilingual/em-ml-admin.php:157
 msgid "Region:"
-msgstr "Region:"
+msgstr "Região:"
 
 #: templates/forms/location/where.php:42 templates/forms/event/location.php:114
 msgid "Country:"
-msgstr "Country:"
+msgstr "País:"
 
 #: templates/forms/location/where.php:45 templates/forms/event/location.php:117
 msgid "none selected"
@@ -2309,7 +2309,7 @@ msgstr "The country"
 
 #: classes/em-location.php:342 widgets/em-locations.php:27
 msgid "Location name"
-msgstr "Location name"
+msgstr "Nome do local"
 
 #: classes/em-location.php:342 classes/em-location.php:367
 #: classes/em-location.php:369
@@ -2560,7 +2560,7 @@ msgstr "Bookings %s. Mails Sent."
 #: classes/em-event-post-admin.php:274 classes/em-event-post-admin.php:507
 #: classes/em-location-post-admin.php:180 multilingual/em-ml-admin.php:56
 msgid "Where"
-msgstr "Where"
+msgstr "Onde"
 
 #: templates/forms/event-editor.php:98 classes/em-event-post-admin.php:280
 #: classes/em-event-post-admin.php:510 multilingual/em-ml-admin.php:46

@@ -13,3 +13,8 @@ add_action( 'init', 'cff_load_events_calendar_textdomain' );
 function cff_load_events_calendar_textdomain() {
 	load_plugin_textdomain( 'events-manager', false, '../themes/culturafazfalta/' );
 }
+
+if ( ! get_option('consent_updated') ) {
+	update_option('consent_updated', true);
+	update_option('dbem_data_privacy_consent_text', 'Eu aceito que as informações sejam armazenadas no site Cultura Faz Falta');
+}

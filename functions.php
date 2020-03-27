@@ -72,3 +72,21 @@ if ( ! get_option('cats_created') ) {
 	});
 
 }
+
+
+add_filter( 'em_get_attributes', function($attributes, $matches, $lattributes) {
+
+
+	$attributes['names'] = [
+		'O evento é pago?',
+		'Classificação Indicativa'
+	];
+	$attributes['values']['O evento é pago?'] = [
+		'Não', 'Sim'
+	];
+	$attributes['values']['Classificação Indicativa'] = [
+		'Livre', '10 anos', '12 anos', '14 anos', '16 anos', '18 anos'
+	];
+	return $attributes;
+
+}, 10, 3);
